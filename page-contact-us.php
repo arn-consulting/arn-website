@@ -28,21 +28,23 @@
 			<div class="header-top-area bg-gradient-color d-none d-lg-block">
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-6 header-top-left-part">
-							<span class="address"><i class="webexflaticon flaticon-placeholder-1"></i> Cité de la démocratie</span>
-														<a href="https://arnconsulting.fr:2096/" class="phone d-inline-block">
+						<div class="col-lg-12 header-top-left-part">
+							<span class="address"><i class="webexflaticon flaticon-placeholder-1"></i> Ancien immeuble du PNUG, derrière le tribunal de Libreville</span>
+							
+							<a href="https://arnconsulting.fr:2096/" target="_blank" class="address phone d-inline-block">
 								<i class="webexflaticon flaticon-send"></i>
 								Webmail
 							</a>
+							<a href="tel:+241062802494"  class="address phone d-inline-block">
+								<i class="webexflaticon flaticon-phone"></i>
+								062-80-24-94
+							</a>
+							<a href="mailto:contact@arnconsulting.fr" target="_blank" class="phone d-inline-block">
+								<i class="fas fa-envelope mrr-10"></i>
+								contact@arnconsulting.fr
+							</a>
 						</div>
-						<div class="col-lg-6 header-top-right-part text-right">
-							<ul class="social-links">
-								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-								<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-							</ul>
-						</div>
+
 					</div>
 				</div>
 			</div>
@@ -116,7 +118,7 @@
 						<div class="contact-details mrl-30">
 							<h5 class="icon-box-title mrb-10">Notre adresse</h5>
 							<p class="mrb-0">
-								derrière le Tribunal de grande instance de Libreville 
+								Ancien immeuble du PNUG, derrière le tribunal de Libreville
 							</p>
 						</div>
 					</div>
@@ -128,7 +130,7 @@
 						</div>
 						<div class="contact-details mrl-30">
 							<h5 class="icon-box-title mrb-10">Téléphone</h5>
-							<p class="mrb-0">+241 077753975 </p>
+							<p class="mrb-0">+241 062802494 </p>
 						</div>
 					</div>
 				</div>
@@ -149,12 +151,7 @@
 					<h5 class="sub-title-side-line text-primary-color mrt-0 mrb-15">Gardons le contact</h5>
 					<h2 class="mrb-30">Des questions ?</h2>
 					<p class="mrb-40">Si vous avez une préoccupation, vous pouvez nous contacter. On vous repondra avec plaisir</p>
-					<ul class="social-list list-lg list-primary-color list-flat mrb-md-60 clearfix">
-						<li><a href="#"><i class="fab fa-facebook"></i></a></li>
-						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-						<li><a href="#"><i class="fab fa-google-plus"></i></a></li>
-					</ul>
+
 				</div>
 				<div class="col-lg-7 col-xl-7">
 					<div class="contact-form">
@@ -232,17 +229,12 @@
 							<img src="img/index.jpg" alt="" class="mrb-20">
 							<address class="mrb-25">
 								<p class="text-light-gray">ARN Consulting SAS au capital 2.000.000 XAF</p>
-								<div class="mrb-10"><a href="#" class="text-light-gray"><i class="fas fa-phone-alt mrr-10"></i>077-75-39-75</a></div>
-								<div class="mrb-10"><a href="https://arnconsulting.fr:2096/" class="text-light-gray"><i class="fas fa-envelope mrr-10"></i>contact@arnconsulting.fr</a></div>
+								<div class="mrb-10"><a href="tel:+241062802494" class="text-light-gray"><i class="fas fa-phone-alt mrr-10"></i>062-80-24-94</a></div>
+								<div class="mrb-10"><a href="mailto:contact@arnconsulting.fr" target="_blank" class="text-light-gray"><i class="fas fa-envelope mrr-10"></i>contact@arnconsulting.fr</a></div>
 								<div class="mrb-0"><a href="#" class="text-light-gray"><i class="fas fa-info mrr-10"></i>N °RCCM GA-LBV-01-2019-817-0009 </a></div>
 								<div class="mrb-0"><a href="#" class="text-light-gray"><i class="fas fa-info mrr-10"></i>N °IMMATRICULATION 48951 T </a></div>
 							</address>
-							<ul class="social-list">
-								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-								<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-							</ul>
+
 						</div>
 					</div>
 					<div class="col-xl-2 col-lg-6 col-md-6">
@@ -292,6 +284,4 @@
 	<script src="js/main.js"></script>
 </body>
 
-
-<!-- Mirrored from webextheme.com/html/novaly-html/v2/page-contact-us.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 02 Aug 2021 09:04:14 GMT -->
 </html>
