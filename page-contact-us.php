@@ -1,3 +1,7 @@
+<?php 
+	$sent = require 'mail.php';
+
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -76,7 +80,7 @@
 										<li><a href="page-faqs.html">Nos services</a></li>
 										<li><a href="nos-formations.html">Nos formations</a></li></li>
 										<li><a href="page-news.html">Carrière</a></li>
-										<li><a href="page-contact-us.html" >Nous contacter</a></li>
+										<li><a href="page-contact-us.php" >Nous contacter</a></li>
 									</ul>
 								</nav>
 							</div>
@@ -154,36 +158,44 @@
 				</div>
 				<div class="col-lg-7 col-xl-7">
 					<div class="contact-form">
-						<form action="mail.php" method="POST">
+						<?php if($sent) : ?>
+							<p class="alert alert-success">Votre message à été envoyé avec succès</p>
+						<?php endif; ?>
+						<form action="page-contact-us.php" method="POST">
 							<div class="row">
 								<div class="col-lg-6">
 									<div class="form-group mrb-25">
 										<input type="text" placeholder="Nom(s) et prénom(s)" class="form-control" name="fullname">
+										<?= required('fullname') ?>
 									</div>
 								</div>
 								<div class="col-lg-6">
 									<div class="form-group mrb-25">
 										<input type="tel" placeholder="Numéro de téléphone" class="form-control" name="phone">
+										<?= required('phone') ?>
 									</div>
 								</div>
 								<div class="col-lg-12">
 									<div class="form-group mrb-25">
 										<input type="email" placeholder="Email" class="form-control" name="sender">
+										<?= required('sender') ?>
 									</div>
 								</div>
 								<div class="col-lg-12">
 									<div class="form-group mrb-25">
 										<input type="text" placeholder="Objet" class="form-control" name="subject">
+										<?= required('subject') ?>
 									</div>
 								</div>
 								<div class="col-lg-12">
 									<div class="form-group mrb-25">
 										<textarea rows="4" placeholder="Messages" class="form-control" name="message"></textarea>
+										<?= required('message') ?>
 									</div>
 								</div>
 								<div class="col-lg-8">
 									<div class="form-group">
-										<button type="submit" class="cs-btn-one btn-md btn-round btn-primary-color element-shadow">Envoyer</button>
+										<button type="submit" class="cs-btn-one btn-md btn-round btn-primary-color element-shadow" name="send">Envoyer</button>
 									</div>
 								</div>
 							</div>
@@ -241,7 +253,7 @@
 								<li><a href="page-faqs.html">Nos services</a></li>
 								<li><a href="nos-formations.html">Nos formations</a></li></li>
 								<li><a href="page-news.html">Carrière</a></li>
-								<li><a href="page-contact-us.html">Nous contacter</a></li>
+								<li><a href="page-contact-us.php">Nous contacter</a></li>
 							</ul>
 						</div>
 					</div>
@@ -281,5 +293,5 @@
 </body>
 
 
-<!-- Mirrored from webextheme.com/html/novaly-html/v2/page-contact-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 02 Aug 2021 09:04:14 GMT -->
+<!-- Mirrored from webextheme.com/html/novaly-html/v2/page-contact-us.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 02 Aug 2021 09:04:14 GMT -->
 </html>
