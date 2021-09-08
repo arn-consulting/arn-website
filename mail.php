@@ -5,11 +5,12 @@ if (isset($_POST['send'])) {
     if (fields_required() > 0) {
         return false;
     }
-    // contact@arnconsulting.fr
-    $to      = 'noelmeb12@gmail.com';
+
+    $to      = 'contact@arnconsulting.fr';
     $subject = $_POST['subject'];
-    $message = $_POST['message'] . '\n' . "Nom et prénoms : ". $_POST['fullname']
-    . '\n' . "Téléphone : ". $_POST['phone'];
+    $message = wordwrap($_POST['message'], 70, "\r\n") . 
+    "\n" . "Nom et prénoms : ". $_POST['fullname']. 
+    "\n" . "Téléphone : ". $_POST['phone'];
     
     $headers = 
     [
